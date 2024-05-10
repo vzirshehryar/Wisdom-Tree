@@ -7,8 +7,6 @@ import { createPortal } from "react-dom";
 const OxAuth = () => {
   return (
     <div>
-      Sign In
-      {/* {createPortal( */}
       <XAuthProvider
         primaryBgColor="#EAEDED"
         primaryColor="#121713"
@@ -29,8 +27,6 @@ const OxAuth = () => {
         />
         <Dashboard />
       </XAuthProvider>
-      {/* document.body
-      )} */}
     </div>
   );
 };

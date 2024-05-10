@@ -2215,20 +2215,6 @@ const Header = () => {
                 >
                   <OxAuth />
                 </div>
-                <div
-                  className="dropdown-trigger panel-trigger-btn register-btn"
-                  role="button"
-                  data-target="#registerHeaderPanel"
-                >
-                  Register
-                </div>
-
-                <div
-                  className="dropdown-trigger panel-trigger-btn search-btn"
-                  role="button"
-                  data-target="#searchHeaderPanel"
-                  aria-expanded="false"
-                ></div>
               </div>
             </div>
           </div>
