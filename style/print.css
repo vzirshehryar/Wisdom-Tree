@@ -1,0 +1,13 @@
+@media print {
+  .blog-image {
+    display: none;
+  }
+
+  .blog-detail-template .blog-content {
+    padding-top: 20px;
+  }
+
+  .blog-detail-template .blog-content .contributor-content {
+    margin-bottom: 15px;
+  }
+}
