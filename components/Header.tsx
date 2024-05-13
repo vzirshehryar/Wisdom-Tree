@@ -1,5 +1,4 @@
-import React from "react";
-import OxAuth from "./OxAuth";
+import { OnBoarding } from "0xuath-sdk-react";
 
 const Header = () => {
   return (
@@ -2213,7 +2212,10 @@ const Header = () => {
                   role="button"
                   data-target="#signInHeaderPanel"
                 >
-                  <OxAuth />
+                  <OnBoarding
+                    buttonLabel="Continue WITH 0XAUTH"
+                    buttonStyle={{ textTransform: "uppercase" }}
+                  />
                 </div>
               </div>
             </div>
