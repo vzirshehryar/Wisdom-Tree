@@ -11,7 +11,7 @@ import Second from "../components/Second";
 import MeetMac from "../components/MeetMac";
 import Investors from "../components/Investors";
 import Footer from "../components/Footer";
-import { CLAIMS, Dashboard, XAuthProvider } from "0xuath-sdk-react";
+import { CLAIMS, Dashboard, XAuthProvider } from "@0xauth/sdk-react";
 import { useState } from "react";
 
 export default function Home() {
